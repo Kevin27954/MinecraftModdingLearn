@@ -1,0 +1,20 @@
+{
+  "itemGroup.kevinsmod": "Example Mod Tab",
+  "block.kevinsmod.example_block": "Example Block",
+  "item.kevinsmod.example_item": "Example Item",
+
+  "kevinsmod.configuration.title": "Kevin's Mod Configs",
+  "kevinsmod.configuration.section.kevinsmod.common.toml": "Kevin's Mod Configs",
+  "kevinsmod.configuration.section.kevinsmod.common.toml.title": "Kevin's Mod Configs",
+  "kevinsmod.configuration.items": "Item List",
+  "kevinsmod.configuration.logDirtBlock": "Log Dirt Block",
+  "kevinsmod.configuration.magicNumberIntroduction": "Magic Number Text",
+  "kevinsmod.configuration.magicNumber": "Magic Number",
+  
+  
+  
+  "item.kevinsmod.cool_stick" : "Cool Stick",
+  "block.kevinsmod.cool_block" : "Block of Cool",
+  "creativetab.kevinsmod.cool_blocks" : "Cool Blocks Tab",
+  "creativetab.kevinsmod.cool_items" : "Cool Items Tab"
+}
