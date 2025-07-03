@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
 					.title(Component.translatable("creativetab.kevinsmod.cool_items"))
 					.displayItems((itemDisplayParameters, output) -> {
 						output.accept(SimpleItems.COOL_STICK);
+						output.accept(SimpleItems.COOL_SPEAR);
 					}).build());
 
 	// TAB 2
@@ -32,6 +33,7 @@ public class ModCreativeModeTabs {
 					.title(Component.translatable("creativetab.kevinsmod.cool_blocks"))
 					.displayItems((itemDisplayParameters, output) -> {
 						output.accept(SimpleBlocks.COOL_BLOCK);
+						output.accept(SimpleBlocks.COOL_ORE);
 					}).build());
 
 	public static void register(IEventBus eventBus) {

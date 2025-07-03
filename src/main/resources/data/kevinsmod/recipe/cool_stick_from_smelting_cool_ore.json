@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:smelting",
+    "category": "misc",
+    "cookingtime": 50,
+    "experience": 0.7,
+    "group": "cool_stick",
+    "ingredient": {
+        "item": "kevinsmod:cool_ore"
+    },
+    "result": {
+        "count": 1,
+        "id": "kevinsmod:cool_stick"
+    }
+}

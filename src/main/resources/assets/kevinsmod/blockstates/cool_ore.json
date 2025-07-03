@@ -1,7 +1,7 @@
 {
     "variants": {
         "": {
-            "model": "kevinsmod:block/cool_block"
+            "model": "kevinsmod:block/cool_ore"
         }
     }
 }

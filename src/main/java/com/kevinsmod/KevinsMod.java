@@ -86,7 +86,7 @@ public class KevinsMod {
         // Note that this is necessary if and only if we want *this* class (KevinsMod) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
-        
+
         // Register the event bus
         SimpleItems.register(modEventBus);
         SimpleBlocks.register(modEventBus);
@@ -100,30 +100,22 @@ public class KevinsMod {
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
-//        // Some common setup code
-//        LOGGER.info("HELLO FROM COMMON SETUP");
-//
-//        if (Config.LOG_DIRT_BLOCK.getAsBoolean()) {
-//            LOGGER.info("DIRT BLOCK >> {}", BuiltInRegistries.BLOCK.getKey(Blocks.DIRT));
-//        }
-//
-//        LOGGER.info("{}{}", Config.MAGIC_NUMBER_INTRODUCTION.get(), Config.MAGIC_NUMBER.getAsInt());
-//
-//        Config.ITEM_STRINGS.get().forEach((item) -> LOGGER.info("ITEM >> {}", item));
     }
 
     // Add the example item to the corresponding (built in) tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-    	
-    	// Now this is accessible in the creative mod item tab.
-    	// So far it seems we need to individually add each item. If only there is a way 
-    	// to automatically get all the Class and push all the item in there.
-    	if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-    		// This pushes it into the TAB with the name of the registry that we had.
-    		event.accept(SimpleItems.COOL_STICK);
-    	} else if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-    		event.accept(SimpleBlocks.COOL_BLOCK);
-    	}
+
+        // Now this is accessible in the creative mod item tab.
+        // So far it seems we need to individually add each item. If only there is a way
+        // to automatically get all the Class and push all the item in there.
+        if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            // This pushes it into the TAB with the name of the registry that we had.
+            event.accept(SimpleItems.COOL_STICK);
+            event.accept(SimpleItems.COOL_SPEAR);
+        } else if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(SimpleBlocks.COOL_BLOCK);
+            event.accept(SimpleBlocks.COOL_ORE);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

@@ -14,7 +14,9 @@
   
   
   "item.kevinsmod.cool_stick" : "Cool Stick",
-  "block.kevinsmod.cool_block" : "Block of Cool",
+  "item.kevinsmod.cool_spear" : "Cool Spear",
+  "block.kevinsmod.cool_block" : "Block of Cool Stick",
+  "block.kevinsmod.cool_ore": "Cool Stick Ore",
   "creativetab.kevinsmod.cool_blocks" : "Cool Blocks Tab",
   "creativetab.kevinsmod.cool_items" : "Cool Items Tab"
 }
