@@ -24,6 +24,9 @@ public class ModCreativeModeTabs {
 					.displayItems((itemDisplayParameters, output) -> {
 						output.accept(SimpleItems.COOL_STICK);
 						output.accept(SimpleItems.COOL_SPEAR);
+						output.accept(SimpleItems.COOL_FOOD);
+						output.accept(SimpleItems.COOL_FUEL);
+						output.accept(SimpleItems.COOL_LEAF);
 					}).build());
 
 	// TAB 2
@@ -34,6 +37,7 @@ public class ModCreativeModeTabs {
 					.displayItems((itemDisplayParameters, output) -> {
 						output.accept(SimpleBlocks.COOL_BLOCK);
 						output.accept(SimpleBlocks.COOL_ORE);
+						output.accept(SimpleBlocks.CUSTOM_BLOCK);
 					}).build());
 
 	public static void register(IEventBus eventBus) {

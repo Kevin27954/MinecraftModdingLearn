@@ -115,6 +115,7 @@ public class KevinsMod {
         } else if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(SimpleBlocks.COOL_BLOCK);
             event.accept(SimpleBlocks.COOL_ORE);
+            event.accept(SimpleBlocks.CUSTOM_BLOCK);
         }
     }
 

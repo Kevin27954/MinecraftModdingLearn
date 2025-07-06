@@ -10,13 +10,21 @@
   "kevinsmod.configuration.logDirtBlock": "Log Dirt Block",
   "kevinsmod.configuration.magicNumberIntroduction": "Magic Number Text",
   "kevinsmod.configuration.magicNumber": "Magic Number",
-  
-  
-  
+
+
+  "tooltip.kevinsmod.cool_fuel.shift_down": "I am amazing at ART. 3Q3Q",
+  "tooltip.kevinsmod.cool_fuel": "This is a Log. Hold Shift for more info",
+
   "item.kevinsmod.cool_stick" : "Cool Stick",
   "item.kevinsmod.cool_spear" : "Cool Spear",
+  "item.kevinsmod.cool_food" : "Cool Food",
+  "item.kevinsmod.cool_fuel" : "Cool Fuel",
+  "item.kevinsmod.cool_leaf" : "Cool Leaf",
+
   "block.kevinsmod.cool_block" : "Block of Cool Stick",
+  "block.kevinsmod.custom_block" : "Block of Custom",
   "block.kevinsmod.cool_ore": "Cool Stick Ore",
+
   "creativetab.kevinsmod.cool_blocks" : "Cool Blocks Tab",
   "creativetab.kevinsmod.cool_items" : "Cool Items Tab"
 }
