@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "kevinsmod:block/custom_slab_block"
+        },
+        "type=double": {
+            "model": "kevinsmod:block/cool_block"
+        },
+        "type=top": {
+            "model": "kevinsmod:block/custom_slab_block_top"
+        }
+    }
+}

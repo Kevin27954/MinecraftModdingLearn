@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+        "kevinsmod:custom_door",
+        "kevinsmod:custom_trap_door",
+        "kevinsmod:custom_button",
+        "kevinsmod:custom_slab_block",
+        "kevinsmod:custom_stair_block",
+        "kevinsmod:custom_pressure_plate",
+        "kevinsmod:custom_fence",
+        "kevinsmod:custom_fence_gate",
+        "kevinsmod:custom_wall"
+    ]
+}

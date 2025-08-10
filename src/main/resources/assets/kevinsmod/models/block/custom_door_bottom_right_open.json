@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/door_bottom_right_open",
+	"textures": {
+		"bottom": "kevinsmod:block/custom_door_bottom",
+		"top": "kevinsmod:block/custom_door_top"
+	}
+}

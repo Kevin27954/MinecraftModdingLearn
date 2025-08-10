@@ -1,4 +1,4 @@
-package com.kevinsmod.item.custom;
+package com.kevinsmod.block.custom;
 
 import com.kevinsmod.item.SimpleItems;
 import com.kevinsmod.util.ModTags;

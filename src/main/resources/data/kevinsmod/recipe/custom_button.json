@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:shapeless_crafting",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "kevinsmod:cool_block"
+        }
+    ],
+
+    "result": {
+        "count": 1,
+        "id": "kevinsmod:custom_button"
+    }
+}

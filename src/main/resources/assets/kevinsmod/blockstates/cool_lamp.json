@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "clicked=false": {
+            "model": "kevinsmod:block/cool_block"
+        },
+        "clicked=true": {
+            "model": "kevinsmod:block/cool_block"
+        }
+    }
+}

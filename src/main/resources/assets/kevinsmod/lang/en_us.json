@@ -24,7 +24,17 @@
   "block.kevinsmod.cool_block" : "Block of Cool Stick",
   "block.kevinsmod.custom_block" : "Block of Custom",
   "block.kevinsmod.cool_ore": "Cool Stick Ore",
+  "block.kevinsmod.custom_door": "Custom Door",
+  "block.kevinsmod.custom_trap_door": "Custom Trap Door",
+  "block.kevinsmod.custom_button": "Custom Button",
+  "block.kevinsmod.custom_slab_block": "Custom Slab Block",
+  "block.kevinsmod.custom_stair_block": "Custom Stair Block",
+  "block.kevinsmod.custom_pressure_plate": "Custom Pressure Plate",
+  "block.kevinsmod.custom_fence": "Custom Fence",
+  "block.kevinsmod.custom_fence_gate": "Custom Fence Gate",
+  "block.kevinsmod.custom_wall": "Custom Wall",
 
   "creativetab.kevinsmod.cool_blocks" : "Cool Blocks Tab",
-  "creativetab.kevinsmod.cool_items" : "Cool Items Tab"
+  "creativetab.kevinsmod.cool_items" : "Cool Items Tab",
+  "creativetab.kevinsmod.cool_non_blocks" : "Cool Non Blocks Tab"
 }

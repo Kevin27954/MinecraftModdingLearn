@@ -1,10 +1,11 @@
-package com.kevinsmod.item;
+package com.kevinsmod.CreativeMode;
 
 import java.util.function.Supplier;
 
 import com.kevinsmod.KevinsMod;
 import com.kevinsmod.block.SimpleBlocks;
 
+import com.kevinsmod.item.SimpleItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -38,7 +39,26 @@ public class ModCreativeModeTabs {
 						output.accept(SimpleBlocks.COOL_BLOCK);
 						output.accept(SimpleBlocks.COOL_ORE);
 						output.accept(SimpleBlocks.CUSTOM_BLOCK);
+						output.accept(SimpleBlocks.COOL_LAMP);
 					}).build());
+
+	public static final Supplier<CreativeModeTab> COOL_NON_BLOCKS_TAB = CREATIVE_MOD_TAB.register("cool_non_blocks_tab",
+			() -> CreativeModeTab.builder().icon(() -> new ItemStack(SimpleBlocks.CUSTOM_DOOR.get()))
+					.withTabsBefore(ResourceLocation.fromNamespaceAndPath(KevinsMod.MODID, "cool_blocks_tab"))
+					.title(Component.translatable("creativetab.kevinsmod.cool_non_blocks"))
+					.displayItems((itemDisplayParameters, output) -> {
+						output.accept(SimpleBlocks.CUSTOM_DOOR);
+						output.accept(SimpleBlocks.CUSTOM_TRAP_DOOR);
+						output.accept(SimpleBlocks.CUSTOM_BUTTON);
+						output.accept(SimpleBlocks.CUSTOM_SLAB_BLOCK);
+						output.accept(SimpleBlocks.CUSTOM_STAIR_BLOCK);
+						output.accept(SimpleBlocks.CUSTOM_PRESSURE_PLATE);
+						output.accept(SimpleBlocks.CUSTOM_FENCE);
+						output.accept(SimpleBlocks.CUSTOM_FENCE_GATE);
+						output.accept(SimpleBlocks.CUSTOM_WALL);
+					})
+					.build()
+			);
 
 	public static void register(IEventBus eventBus) {
 		CREATIVE_MOD_TAB.register(eventBus);

@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/button",
+    "textures": {
+        "texture": "kevinsmod:block/cool_block"
+    }
+}
